@@ -1,28 +1,28 @@
-# montage-maker-extraordinaire
+# Montage Maker
 
-Put videos in a folder. Run one command. It picks random videos, clips them into a montage,
-and puts your text over it. Then you post it.
+1. Upload videos to the **Montage Maker** folder in your Google Drive (from your phone or anywhere).
+2. Press the button.
+3. A montage shows up in **Montage Maker/Montages**.
 
-```
-python montage.py my-folder --text "Day 12 of building a robot farm"
-```
+Press again for another one.
 
-Out comes `output/montage.mp4`.
+The montage picks the best moment from each video, clips it, and puts them together. Vertical
+and silent, ready to post (add music in the app you post to).
 
-## What it does
+## Setup (once)
 
-1. Picks random videos from your folder.
-2. Clips a short piece from each.
-3. Combines them into one montage.
-4. Puts your text over it.
+- Google Drive for desktop on your computer (free)
+- `ffmpeg` and Python 3
+- Make a folder called `Montage Maker` in My Drive
+- Run `python montage.py` and leave it running
 
-Your original files are never changed.
+The button is at `http://localhost:8000` on the computer, or
+`http://<computer-name>.local:8000` on your phone on the same Wi-Fi.
 
-## Needs
+## Cost
 
-- `ffmpeg`
-- Python 3 with Pillow (`pip install pillow`)
+Nothing. Runs on your computer. No paid AI, no API.
 
 ## Status
 
-Scaffold. `montage.py` has every step written out as pseudocode. Nothing runs yet.
+Scaffold. `montage.py` has every step as pseudocode. Nothing runs yet.

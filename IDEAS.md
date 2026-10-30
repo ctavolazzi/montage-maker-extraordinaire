@@ -1,6 +1,6 @@
 # Ideas from similar projects
 
-Read 2026-10-30. For each of the four steps: how other projects do it, and what we use.
+Read 2026-10-30. For each step: how other projects do it, and what we use.
 
 Projects read: autoshorts (upload-post-skills), MoneyPrinterTurbo, SlopGen, AutoShortAi,
 slideshow-automation, vmashd, hdsa2019doc, mikhin's many-reels gist.
@@ -42,23 +42,6 @@ for, use all of them.
 | AutoShortAi | Checks the output file exists and isn't empty |
 
 **We use:** SlopGen's decoding join, plus a length check at the end (SlopGen, AutoShortAi).
-
-## 4. Put text over it
-
-| Project | How it does it |
-|---|---|
-| autoshorts | Draws the text with Pillow into a see-through image, then lays it over the video with ffmpeg. White letters, black outline, dark rounded box behind each line, long text wrapped. Avoids ffmpeg's text filter, which often lacks font support |
-| AutoShortAi | Uses ffmpeg's text filter and had to add a list of font locations so it wouldn't crash |
-| slideshow-automation | Sizes everything from the frame size: text 3.5% of the height, outline about 5% of the text size, box padding from the text size, text no wider than 80% of the frame, placed 10% from the top |
-| MoneyPrinterTurbo | Measures line height from the font itself so the last line doesn't get cut off |
-
-**We use:** autoshorts' approach and look, sized like slideshow-automation, line height like
-MoneyPrinterTurbo, and AutoShortAi's list of where to find a font on Mac, Windows and Linux.
-
-## Combining steps 3 and 4
-
-Joining the clips and adding the text happen in one ffmpeg command, so the video is only
-encoded once more after clipping. Fewer passes, sharper result.
 
 ## Avoided
 
