@@ -1,28 +1,23 @@
 # Montage Maker
 
-1. Upload videos to the **Montage Maker** folder in your Google Drive (from your phone or anywhere).
-2. Press the button.
-3. A montage shows up in **Montage Maker/Montages**.
+1. Shoot videos. Put them in **My Drive/Montage Maker**. Leave them there.
+2. Open the notebook and press **Run all** (works from your phone's browser).
+3. A montage shows up in **My Drive/Montage Maker/Montages**.
 
-Press again for another one.
+Run it again for another one.
 
-The montage picks the best moment from each video, clips it, and puts them together. Vertical
-and silent, ready to post (add music in the app you post to).
+It picks the best moment from each video, clips it, and puts them together. Vertical and
+silent, ready to post (add music in the app you post to).
 
-## Setup (once)
+## Where it runs
 
-- Google Drive for desktop on your computer (free)
-- `ffmpeg` and Python 3
-- Make a folder called `Montage Maker` in My Drive
-- Run `python montage.py` and leave it running
+On Google's free computers (Google Colab). Not on your phone, not on your computer, and your
+computer can be off. Nothing paid.
 
-The button is at `http://localhost:8000` on the computer, or
-`http://<computer-name>.local:8000` on your phone on the same Wi-Fi.
+## Open it
 
-## Cost
-
-Nothing. Runs on your computer. No paid AI, no API.
+https://colab.research.google.com/github/ctavolazzi/montage-maker-extraordinaire/blob/main/montage.ipynb
 
 ## Status
 
-Scaffold. `montage.py` has every step as pseudocode. Nothing runs yet.
+Scaffold. `montage.ipynb` has every step as pseudocode. Nothing makes a montage yet.
