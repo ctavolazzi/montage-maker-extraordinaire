@@ -1,0 +1,17 @@
+[project]
+name = "montage-maker-extraordinaire"
+version = "0.0.0"
+description = "Folder of clips in, captioned vertical video out."
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10"]
+license = { text = "MIT" }
+
+[project.scripts]
+montage = "montage.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["montage"]

@@ -1,0 +1,10 @@
+# user media and output, never committed
+clips/
+music/
+ready/
+.montage/
+captions.txt
+
+__pycache__/
+*.egg-info/
+.venv/
