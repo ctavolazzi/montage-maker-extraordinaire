@@ -8,7 +8,6 @@ From reading the code of similar projects, 2026-10-30.
 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Make any clip vertical: zoom until it fills the frame, cut off the edges |
 | [hdsa2019doc](https://github.com/hackersanddesigners/hdsa2019doc) | Pick a random starting point in each clip, not always the beginning |
 | [mikhin's gist](https://gist.github.com/mikhin/3abf12ab5a9965f167197d239cf275d8) | Convert every piece to the same size and frame rate before stitching, or stitching breaks |
-| [slideshow-automation](https://github.com/coopcz/slideshow-automation) | Turn a photo into a short video piece by holding it on screen for a few seconds |
 | [vmashd](https://github.com/boonej/vmashd) | Skip clips that are too short |
 
 What we avoid: MoviePy and ImageMagick. They were the part that broke most in the projects
