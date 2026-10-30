@@ -1,23 +1,20 @@
 # Montage Maker
 
-1. Shoot videos. Put them in **My Drive/Montage Maker**. Leave them there.
-2. Open the notebook and press **Run all** (works from your phone's browser).
-3. A montage shows up in **My Drive/Montage Maker/Montages**.
+Lives in CT's Google Drive: **My Drive / Montage Maker / Montage Maker.ipynb**.
 
-Run it again for another one.
+1. Open it (it opens in Google Colab) and tap the play button.
+2. Allow Drive, type your Apple ID password, and the code Apple sends if it asks.
+3. A montage shows up in **My Drive / Montage Maker / Montages**. Tap again for another one.
 
-It picks the best moment from each video, clips it, and puts them together. Vertical and
-silent, ready to post (add music in the app you post to).
+It copies videos from a random 2-week stretch of your iCloud library onto Google's free
+computer (not your phone, not your Drive), picks the best moment of each, cuts 3 seconds from
+up to 8 of them, and joins them into one vertical, silent video. Any videos you put in the
+Montage Maker folder get mixed in too. Only the montage is saved.
 
-## Where it runs
+Free. Nothing runs on your phone or computer.
 
-On Google's free computers (Google Colab). Not on your phone, not on your computer, and your
-computer can be off. Nothing paid.
+Needs, once: in iPhone Settings > your name > iCloud, Advanced Data Protection off and Access
+iCloud Data on the Web on.
 
-## Open it
-
-https://colab.research.google.com/github/ctavolazzi/montage-maker-extraordinaire/blob/main/montage.ipynb
-
-## Status
-
-Scaffold. `montage.ipynb` has every step as pseudocode. Nothing makes a montage yet.
+`montage.ipynb` here is the same notebook. `IDEAS.md` lists what was learned from similar
+projects.

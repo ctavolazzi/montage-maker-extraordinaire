@@ -1,7 +1,11 @@
 # How to work in this repo
 
-CT (Christopher) owns this. Videos go in a Google Drive folder, he presses run, a montage
-comes out in a subfolder.
+CT (Christopher) owns this. He taps play on the notebook in his Drive; it pulls videos from his
+iCloud (via icloudpd) plus any in My Drive/Montage Maker, and saves a montage to its Montages
+folder. His phone has no free storage, so nothing may go through the phone.
+
+The live copy is in his Drive (file id `1CDqoH_RIn4GRFtCaNTsoEqYmPK8U6TwE`). When
+`montage.ipynb` changes here, update that file too.
 
 - **Keep it simple.** One notebook, `montage.ipynb`, run on Google Colab. No settings. Add a
   feature only when CT asks.
