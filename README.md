@@ -7,10 +7,11 @@ Lives in CT's Google Drive: **My Drive / Montage Maker / Montage Maker.ipynb**.
    only the videos already in your Google Drive.
 3. A montage shows up in **My Drive / Montage Maker / Montages**. Tap again for another one.
 
-It picks up to 8 videos at random from anywhere in your Google Drive (plus a random 2-week
-stretch of your iCloud library if you sign in), finds the best moment of each, cuts up to 3
-seconds from each, and joins them into one vertical, silent video on Google's free computer.
-Sound-only files and clips under 1.5 seconds are skipped. Only the montage is saved.
+It looks at videos at random from anywhere in your Google Drive (plus a random 2-week stretch
+of your iCloud library if you sign in). It skips screenshots, screen recordings, and text in
+the top half, where your caption goes. It finds the best moment of each, cuts clips of
+different lengths (a short busy opener, then a mix of 1 to 4.5 seconds), and joins them into a
+vertical, silent video of about 20 seconds on Google's free computer. Only the montage is saved.
 
 Free. Nothing runs on your phone or computer.
 
